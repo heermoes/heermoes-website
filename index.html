@@ -26,22 +26,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
-  </style>
-  
+  </style
 </head>
+    
 <body>
  <div id="map"></div>
-<div id="text">
+  <div id="text">
     <textarea id="geojsontext"></textarea>
     <input type="button" id="submit" value="Submit">
-</div>
-  
+  </div>
 </body>
 
 <script>
   let map = L.map("map").setView([0, 0], 1);
-L.tileLayer("https://cartodb-basemaps-{s}.global.[...]/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/[...]</a>',
+L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: "abcd",
     maxZoom: 19
 }).addTo(map);
