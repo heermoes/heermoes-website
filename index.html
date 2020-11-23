@@ -37,3 +37,12 @@ html, body {
 </div>
   
 </body>
+
+<script>
+  let map = L.map("map").setView([0, 0], 1);
+L.tileLayer("https://cartodb-basemaps-{s}.global.[...]/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/[...]</a>',
+    subdomains: "abcd",
+    maxZoom: 19
+}).addTo(map);
+</script>
