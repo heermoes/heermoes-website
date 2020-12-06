@@ -1,4 +1,4 @@
-# hello-world
+# Website
 Hello world!
 
 I'm Luc. I am an amateur biologist / entomologist. 
