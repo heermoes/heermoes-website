@@ -70,3 +70,16 @@ body {
   background: #ddd;
 }
 
+@media screen and (max-width: 510px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
