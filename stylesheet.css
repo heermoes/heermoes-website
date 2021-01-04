@@ -52,6 +52,12 @@ body {
   padding: 20px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main {   
   flex: 70%;
   background-color: white;
