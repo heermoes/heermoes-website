@@ -91,23 +91,14 @@ body {
 }
 
 
-.menu {
-  overflow: hidden;
-  flex: 20%;
-  background-color: #f1f1f1;
-  padding: 20px;
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
 }
 
-.menu a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  background-color: #ddd;
-  color: black;
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
 }
