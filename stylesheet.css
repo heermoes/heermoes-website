@@ -41,6 +41,11 @@ body {
   color: black;
 }
 
+.navbaractive  a {
+ background-color: #ddd;
+  color: black;
+}
+
 .row {  
   display: flex;
   flex-wrap: wrap;
