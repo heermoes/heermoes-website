@@ -42,6 +42,10 @@ body {
 }
 
 .navbaractive  a {
+    float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
  background-color: #ddd;
   color: black;
 }
